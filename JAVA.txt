@@ -1,0 +1,186 @@
+1) What is class in java ?
+  Java class file is a file containing Java bytecode that can be executed on the Java Virtual Machine.
+ A Java class file is usually produced by a Java compiler from Java programming language source files containing Java classes.
+ ............................
+ 
+ 
+2)What is object in java ?
+A Java object is a member (also called an instance) of a Java class. 
+Each object has an identity, a behavior and a state.
+ The state of an object is stored in fields (variables), while methods (functions) display the object's behavior. 
+ Objects are created at runtime from templates, which are also known as classes.
+ .........................
+	
+3) What is Method?
+   In java, a method is like function i.e. used to expose behaviour of an object 
+   it may be inside the class or out side the class. 
+   Advantage of Method:
+   •	Code Reusability
+   •	Code Optimization
+.....................................
+
+4)Local variables . variables defined inside methods, constructors or blocks are called local variables.
+    The variable will be declared and initialized within the method and the variable will be destroyed when the method has completed.
+.................................. 
+
+5)Instance variables . Instance variables are variables within a class but outside any method.
+    These variables are instantiated when the class is loaded. Instance variables can be accessed from inside any method,
+	constructor or blocks of that particular class.
+ .....................................
+ 
+6)Class variables . Class variables are variables declared with in a class, outside any method, with the static keyword
+.....................................
+
+7)What is Polymorphism?
+Polymorphism in Java is a concept by which we can perform a single action in different ways.
+There are two types of polymorphism in Java: compile-time polymorphism and runtime polymorphism.
+ We can perform polymorphism in java by method overloading and method overriding.
+.....................................
+
+8)what is inheritence?
+Inheritance in Java is a mechanism in which one object acquires all the properties and behaviors of a parent object.
+ It is an important part of OOPs (Object Oriented programming system).
+ .......................................
+ 
+9)Abstraction in Java
+Abstraction is a process of hiding the implementation details and showing only functionality to the user.
+Another way, it shows only essential things to the user and hides the internal details,
+ for example, sending SMS where you type the text and send the message. You don't know the internal processing about the message delivery.
+ .........................................
+ 
+10)what is encapsulation
+ Encapsulation in Java is a process of wrapping code and data together into a single unit,
+ for example, a capsule which is mixed of several medicines.
+ .....................................
+ 
+ 11)What is Method Overriding?
+ If subclass (child class) has the same method as declared in the parent class, it is known as method overriding in Java.
+ ..........................................
+ 
+ 12)What is method overloading?
+ If a class has multiple methods having same name but different in parameters, it is known as Method Overloading.
+......................................... 
+
+ 13) Final Keyword?
+ The final keyword in java is used to restrict the user. The java final keyword can be used in many context. Final can be:
+variable
+method
+class
+..........................................
+
+14)What is identifier ?
+   A name in java program is called identifier it can be a class name variable name or method name or label name 
+   java allows only ( a to z,A TO Z,0 TO 9,-,$) for identifiers 
+   Java identifiers are case sensitive 
+   There is no length limit but recomended to use not morethan 15
+   Java identifiers are case sensitive 
+   Reserved words can not be used as identifiers 
+   
+  .....................................................
+  
+15)Data Types 
+     IN java every variable and every expression have some type 
+	 Each and every data type is clearly defined
+	 Every assignment should be checked by compiler for type compatability 
+	 because of above reasons we can conclude java language is  strongly typed language 
+Primitive data types 
+    @Numeric data types - used to Represent numbers 
+	   .Integral data types -To represent whole numbers 
+	   *BYTE  - Size - 8bits=1 byte , Range = -128 to 127 
+	   *SHORT - Size - 2 bytes ,      Range =  -32768 to 32767
+	   *Int   - Size - 4 bytes ,      Range =
+	   *LONG  - Size - 8 bytes 
+	@Floating point data types - To represent real numbers
+	   *Float-   Size -4 bytes 
+       *Double - size -8 bytes	   
+	@char data types    - To represent characters 
+	
+	@Boolean data types - To represent logical values 
+	  The only allowed characters for boolean data types are True / False 
+...............................................
+16)Reserved Words
+  In java we cant use reserved words as identifiers 
+   Ex ;   int x=10
+          int if =20
+          if is a reserved word in java so we cant use	
+		   examples of reserved words :
+         abstract, if, private, this, double, implements, throw, boolean, else, 
+         import, public, throws, break, return, byte, extends, int, 
+         short, true, false, case, interface, static, try, catch, final, long, void.
+		 
+		 Total reserved word =53
+		 @ Keywords=50 
+		     Used -48
+			 unused -2  goto,constructor
+		 
+		 Reserved literals =3  True,false,null
+		 
+	@Keywords for data types =8
+	   byte,short,int,long,float,double,boolean,char
+	@Key word for flow control = 11
+	   if,else,switch,case,default,while,do,for,break,continue,return
+	@Keywords for modifications  =11
+	  Public,private,protected,static,final,abstract,synchronized,native,strictfp,transient,volatile,
+	@	Keywords for exception handling  =6
+	   Try ,catch ,finally,throw,throws,assert 
+	@Class related keyword = 6
+	  class,interface,extends ,implements,package,import,
+	@Object related keywords =4
+	  new,instanceof,super,this,
+	@void return type keyword =1   a method wont return 
+	  void 
+	  @Enum 
+	    enum keyword is used to define group of named constants 
+		
+All 53 Reserved words in java are  in lowercase and only in alphabets
+	  
+	
+	
+		 
+....................................................		 
+
+17)Types of variables  
+   based on the type of value represented by a variable all variables are divided into 2 types   
+     * Primitive variables 
+	 *Reference variables 
+	 
+	@primitive variables : can be used to represent values 
+	 int x =10;
+	@ Reference variables :can be used to refer objects 
+	   student S = new student ();
+	   S = referwnce variable
+	 Based on purpose and position of decleration all variablesare classified into 3 types 
+	 *Instance variable 
+     *static variable 
+     *local variables 
+			 
+	@Instance variable : 
+	   *If the value of variable is varied from object to object such type of variable is called instance variable 
+	   *For every object a seperate copy of instance variable  will be created 
+	   *The scope of the instance variable is exactly same as the scope of the objects 
+	   because instance variable will be created at the time of object creation and deleted at the time of object deltetiion
+	 @ Static variable: Also known as class variable 
+	  Class variables are variables declared with in a class, outside any method, with the static keywords
+	   
+	@Local variables . variables defined inside methods, constructors or blocks are called local variables.
+    The variable will be declared and initialized within the method and the variable will be destroyed when the method has completed.
+	
+.............................................
+18) What are literals 
+   Any constant value which can be be assigned to the variable is called Literals 
+   
+  
+
+	 
+
+	  
+	
+	   
+	   
+	   
+	
+   
+ 
+ 
+
+
